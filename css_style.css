@@ -5,7 +5,6 @@
 	width: 100%;
 	height: 60px;
 	background: #fff;
-	//border: 2px solid black
 }
 .right1 ul{
 	list-style: none;
@@ -32,18 +31,18 @@
 .right1 .top_logo{
 	padding-left: 70px
 }
-.right1 a:hover{
+/*.right1 a:hover{
 	padding-top:20px;
 	padding-bottom: 20px;
 	background: skybkue;
-}
+}*/
 .header{
 	  background: url(img-1.jpg) no-repeat center center/cover;
 	  width: 100%;
 	}
 	.inner{
-		padding-top: 10%;
-		padding-bottom: 10%;
+		padding-top: 15%;
+		padding-bottom: 15%;
 		padding-left: 30%;
 		color: #fff;
 		width: 40%;
@@ -57,20 +56,21 @@
 	.big .b{
 		font-size: 50px;
 		font-style: bold;
-		font-family: arial;
 	}
 	.big{
-		font-style: none;
-		font-size: 35px;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 30px;
+		text-align: center;
+		padding-bottom: 20px;
+
 	}
 	.inner .small{
 		font-family: sans-serif;
 	}
 	.btm{
 		display: flex;
-	justify-content: center;
-	width: 100%;
-	//height: 7vh;
+		justify-content: center;
+		width: 100%;
 	padding: 10px;
 	}
 	.b1{
@@ -94,7 +94,7 @@
 	.main{
 		display: flex;
 		width:100%;
-	//	height: 60vh;
+		background: rgb(247, 244, 242);
 	}
 	.main .left{
 		width:50%;
@@ -124,6 +124,7 @@
 		justify-content: center;
 		padding-top:50px;
 	}
+	
 	.header2{
 		width:100%;
 		background: url(img-2.jpg) no-repeat center center/cover;
@@ -138,13 +139,9 @@
 		flex-grow: 1;
 		padding-top: 60px;
 	}
-	.top p{
+	.top h1{
 		color: #fff;
 		text-align:center;
-	}
-	.top p{
-		color: #fff;
-		tex: center;
 		font-size: 40px;
 		font-family: sans-serif;
 	}
@@ -152,18 +149,9 @@
 		display: flex;
 		width: 100%;
 		padding-top: 100px;
-		padding-bottom: 40px;;
+		padding-bottom: 40px;
 		justify-content: center;
 		}
-		.first{
-		justify-content: center;
-	}
-	.second{
-		justify-content: center;
-	}
-	.third{
-		justify-content: center;
-	}
 	.first,.second,.third{
 		padding-right: 20px;
 	}
@@ -172,23 +160,32 @@
 		text-align: center;
 		font-family: arial;
 	}
-	.middle img{
-		margin-left: auto;
- 		margin-right: auto;
-  		width:90%;
-  		padding-bottom: 50px;
+	.middle_img_div{
+		display: block;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.header2_img{
+		padding: 30px;
+		border-radius: 45px;
+		background-color:#fff8dc47;
+		position: relative;
 	}
 	.last{
 		width: 100%;
 		display: flex;
 		justify-content: center;
 	}
+	
 .main3{
-	width: 80%;
-	padding: 65px;
+	width: 100%;
+	background: rgb(247, 244, 242);
+	padding-bottom: 20px;
 }
 .first1{
-	width:100%;
+	padding-left: 65px;
+	padding-top: 65px;
+	width:80%;
 }
 .big1{
 	font-size: 50px;
@@ -216,7 +213,9 @@
 }
 .third1{
 	display: flex;
-	width: 100%;
+	padding-left: 65px;
+	padding-top: 65px;
+	width: 80%;
 }
 .first2{
 	width: 30%;
@@ -227,10 +226,10 @@
 	padding-bottom: 5px;
 }
 .one img{
-	height: 40vh;
+	height: 40.2vh;
 }
 .two img{
-	height: 20vh;
+	height: 19.5vh;
 }
 .two{
 	width: 100%;
@@ -272,6 +271,7 @@
 .main4{
 	width: 100%;
 	background: rgb(230, 223, 215);
+	padding-bottom: 20px;
 }
 .top1{
 	width: 100%;
@@ -418,7 +418,7 @@
 }
 .main6{
 	width: 100;
-	background:;
+	background:rgb(230, 223, 215);
 
 }
 .top3{
@@ -466,7 +466,7 @@
 }
 .fotter{
 	width: 100%;
-	background:#32006D ;
+	background: #3a376c ;
 }
 .top4{
 	width: 100%;
